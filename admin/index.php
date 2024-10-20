@@ -43,7 +43,7 @@ if (isset($_POST['login'])) {
         <div class="hk-pg-wrapper hk-auth-wrapper">
             <header class="d-flex justify-content-between align-items-center">
                 <a class="d-flex auth-brand align-items-center" href="#">
-                    <span class="text-white font-30">Bhakyalakshmi - Camphor</span>
+                    <span class="text-white font-30">Homik - Interior- Job</span>
                 </a>
 
             </header>

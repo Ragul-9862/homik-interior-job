@@ -34,8 +34,93 @@
       href="plugins/revolution/revolution/css/navigation.css"
     />
   </head>
+<style>
+  /* Carousel Container Styling */
+.banner-carousel {
+    width: 100%;
+    background-color: #f5f5f5;
+}
 
+.carousel-slide {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.carousel-slide p {
+    font-size: 1.2rem;
+    color: #666;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+/* Custom Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Owl Carousel Custom Controls */
+.owl-nav {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    width: 100%;
+    display: flex;
+    transform: translateY(-50%);
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+    background-color: #000;
+    color: white;
+    padding: 0px 12px;
+    margin:3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+    background-color: #6FBF44;
+}
+
+/* .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+} */
+
+/* .owl-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    background-color: #ddd;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.owl-dot.active {
+    background-color: #007bff;
+} */
+
+</style>
   <body>
+    
     <!-- <div id="royal_preloader"></div> -->
     <div id="page" class="site">
       <header id="site-header" class="site-header header-static">
@@ -182,7 +267,7 @@
                           </ul> -->
                         </li>
                         <li class=" ">
-                          <a href="">Gallery</a>
+                          <a href="gallery.php">Gallery</a>
                           <!-- <ul class="mega-sub-menu">
                             <li class="row">
                               <ul class="col">
@@ -642,49 +727,65 @@
       </header>
 
       <div id="content" class="site-content">
-        <section class="banner-4">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-7 col-lg-12">
-                <h2>
-                  We provide efficient B2B interior solutions <br />
-                  tailored to your needs.
-                </h2>
-
-                <div class="banner-desc-4">
-                  <p>we will help you to build a dream</p>
-                </div>
-              </div>
-            </div>
+      <div class="banner-carousel owl-carousel">
+  <!-- Slide 1 -->
+  <div class="carousel-slide banner-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-7 col-lg-12">
+          <h2>
+            We provide efficient B2B interior solutions <br />
+            tailored to your needs.
+          </h2>
+          <div class="banner-desc-4">
+            <p>We will help you build a dream.</p>
           </div>
-        </section>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <section class="feature-4">
-          <div class="container">
-            <div class="feature-wrap">
-              <div class="feature-item mb-4 mb-lg-0">
-                <h6 class="number">01.</h6>
-                <p>Production Design</p>
-              </div>
-              <div class="feature-item mb-4 mb-lg-0">
-                <h6 class="number">02.</h6>
-                <p>Manufacturing</p>
-              </div>
-              <div class="feature-item">
-                <h6 class="number">03.</h6>
-                <p>process streamlining</p>
-              </div>
-              <div class="feature-item">
-                <h6 class="number">04.</h6>
-                <p>
-                  Installation and
-                  <br />
-                  Execution.
-                </p>
-              </div>
-            </div>
+  <!-- Slide 2 -->
+  <div class="carousel-slide banner-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-7 col-lg-12">
+          <h2>Transform your space with innovative designs.</h2>
+          <div class="banner-desc-4">
+            <p>Creating spaces that inspire and elevate.</p>
           </div>
-        </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="carousel-slide banner-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-7 col-lg-12">
+          <h2>Seamless integration of functionality and style.</h2>
+          <div class="banner-desc-4">
+            <p>Your satisfaction is our mission.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- WhatsApp & Call Buttons -->
+<div class="floating-icons">
+  <a href="https://wa.me/919999999999" target="_blank" class="whatsapp-icon" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:+919999999999" class="call-icon" aria-label="Call Us">
+    <i class="fas fa-phone-alt"></i>
+  </a>
+</div>
+
+
 
         <section>
           <div class="space-10"></div>
@@ -751,33 +852,11 @@
           <div class="space-10"></div>
         </section>
 
-        <section class="services-4">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center theratio-align-center">
-                <div class="">
-                  <span>OUR PROCESS </span>
-                  <h2 class="main-heading">
-                    “Simplified Solution. Efficiently Delivered”
-                  </h2>
-                  <p>
-                    We simplified your modular interior furniture process to
-                    make the potential of any material shine, with the help of
-                    state-of-the-art machinery from India, Germany, and Italy.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="text-center">
-              <img
-                class="img-fluid"
-                src="./images/process/process.png"
-                alt=""
-                srcset=""
-              />
-            </div>
-          </div>
-        </section>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    rel="stylesheet"
+/>
+
 
         <section class="skill-4 p-md-0 pb-0">
           <div class="container-fluid">
@@ -1021,4 +1100,23 @@
     <!-- REVOLUTION SLIDER SCRIPT FILES -->
     <script src="js/rev-script-1.js"></script>
   </body>
+
+  <script>
+    $(document).ready(function () {
+  $(".banner-carousel").owlCarousel({
+    items: 1,                 // Show one item at a time
+    loop: true,               // Infinite looping
+    margin: 10,               // Margin between items
+    nav: true,                // Show navigation arrows
+    dots: false,               // Show dots for pagination
+    autoplay: true,           // Enable autoplay
+    autoplayTimeout: 3000,    // 3 seconds per slide
+    autoplayHoverPause: true, // Pause on hover
+    animateOut: 'fadeOut',    // Animation when slide changes
+    animateIn: 'fadeIn',      // Animation when slide enters
+    navText: ["<", ">"]       // Custom arrow text
+  });
+});
+
+  </script>
 </html>

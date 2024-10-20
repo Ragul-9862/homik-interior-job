@@ -84,11 +84,11 @@ if (strlen($_SESSION['aid'] == 0)) {
                                                     <input class="form-control" type="text" name="name">
                                                     <div class="invalid-feedback">Please provide a valid name.</div>
                                                 </div>
-                                                <div class="col-md-6 mb-10">
+                                                <!-- <div class="col-md-6 mb-10">
                                                     <label class="form-label" for="price">Price</label>
                                                     <input class="form-control" type="tel" name="price">
                                                     <div class="invalid-feedback">Please provide a valid price.</div>
-                                                </div>
+                                                </div> -->
                                             </div>
 
                                             <div class="form-row">
@@ -106,7 +106,7 @@ if (strlen($_SESSION['aid'] == 0)) {
                                                     <div class="invalid-feedback">Please provide a valid Default Image.</div>
                                                 </div>
                                                 <div class="col-md-6 mb-10">
-                                                    <label class="form-label" for="imghover">Upload Image</label>
+                                                    <label class="form-label" for="imghover">Hover Image</label>
                                                     <input class="form-control" type="file" name="imghover" id="imghover">
                                                     <div class="invalid-feedback">Please provide a valid Hover Image.</div>
                                                 </div>

@@ -1,3 +1,8 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- Include other parts of the HTML -->
@@ -95,7 +100,7 @@
                 <div class="octf-mainbar-row octf-row">
                   <div class="octf-col logo-col">
                     <div id="site-logo" class="site-logo">
-                      <a href="index.html">
+                      <a href="index.php">
                         <img
                           src="images/logo/Homik.png"
                           alt="Homik"
@@ -111,205 +116,23 @@
                     >
                       <ul class="menu">
                         <li class="current-menu-item current-menu-ancestor">
-                          <a href="index.html">Home</a>
+                          <a href="index.php">Home</a>
                         </li>
                         <li class="">
                           <a href="#">About</a>
-                          <!-- <ul class="sub-menu">
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li>
-                              <a href="our-services.html">Our Services</a>
-                            </li>
-                            <li><a href="our-team.html">Our Team</a></li>
-                            <li><a href="single-team.html">Single Team</a></li>
-                            <li><a href="our-process.html">Our Process</a></li>
-                            <li><a href="our-studio.html">Our Stufio</a></li>
-                            <li class="menu-item-has-children">
-                              <a href="shop.html">Shop</a>
-                              <ul class="sub-menu">
-                                <li>
-                                  <a href="single-product.html"
-                                    >Single Product</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="checkout-page.html">Checkout Page</a>
-                                </li>
-                                <li><a href="cart-page.html">Cart Page</a></li>
-                              </ul>
-                            </li>
-                            <li><a href="typography.html">Typography</a></li>
-                            <li><a href="elements.html">Elements</a></li>
-                            <li><a href="faq.html">FAQS</a></li>
-                            <li><a href="cooming-soon.html">Coming Soon</a></li>
-                            <li><a href="404-error.html">404 Error</a></li>
-                          </ul> -->
+                
                         </li>
                         <li class="">
                           <a href="#">Products</a>
-                          <!-- <ul class="sub-menu">
-                            <li>
-                              <a href="servcies-detail-1.html"
-                                >Design & Planning</a
-                              >
-                            </li>
-                            <li>
-                              <a href="servcies-detail-2.html"
-                                >Exterior Design</a
-                              >
-                            </li>
-                            <li>
-                              <a href="servcies-detail-3.html"
-                                >Custom Solutions</a
-                              >
-                            </li>
-                            <li>
-                              <a href="servcies-detail-4.html"
-                                >Furniture & Decor</a
-                              >
-                            </li>
-                            <li>
-                              <a href="servcies-detail-5.html"
-                                >Creating Concept</a
-                              >
-                            </li>
-                            <li>
-                              <a href="servcies-detail-6.html"
-                                >Author’s Control</a
-                              >
-                            </li>
-                          </ul> -->
+                  
                         </li>
                         <li class=" ">
                           <a href="#">Gallery</a>
-                          <!-- <ul class="mega-sub-menu">
-                            <li class="row">
-                              <ul class="col">
-                                <li class="menu-title">Portfolio Types</li>
-                                <li>
-                                  <a href="portfolio-masonry.html"
-                                    >Portfolio Grid Masonry</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-no-gap.html"
-                                    >Portfolio Grid No Gap</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-under.html"
-                                    >Portfolio Info Under Image</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-metro.html"
-                                    >Portfolio Metro</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-metro-no-gap.html"
-                                    >Portfolio Metro No Space</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-gallery.html"
-                                    >Portfolio Gallery</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-slider.html"
-                                    >Portfolio Slider</a
-                                  >
-                                </li>
-                              </ul>
-                              <ul class="col">
-                                <li class="menu-title">Portfolio Layout</li>
-                                <li>
-                                  <a href="portfolio-two-column.html"
-                                    >Two Columns</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-three-column.html"
-                                    >Three Columns</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-three-column-wide.html"
-                                    >Three Columns Wide</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-four-column-wide.html"
-                                    >Four Columns Wide</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-five-column-wide.html"
-                                    >Five Columns Wide</a
-                                  >
-                                </li>
-                              </ul>
-                              <ul class="col">
-                                <li class="menu-title">Single Types</li>
-                                <li>
-                                  <a href="portfolio-standar.html">Standard</a>
-                                </li>
-                                <li>
-                                  <a href="portfolio-detail-slider.html"
-                                    >Slider Images</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-left.html">Left Images</a>
-                                </li>
-                                <li>
-                                  <a href="portfolio-right.html"
-                                    >Right Images</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-small.html"
-                                    >Small Images</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="portfolio-big.html">Big Images</a>
-                                </li>
-                              </ul>
-                              <ul class="col">
-                                <li class="menu-title">Hover Types</li>
-                                <li>
-                                  <a href="image-scale.html">Image Scale</a>
-                                </li>
-                                <li>
-                                  <a href="show-overlay-info.html"
-                                    >Show Overlay Info</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="hidden-overlay-info.html"
-                                    >Hidden Overlay Info</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="background-solid.html"
-                                    >Background Solid</a
-                                  >
-                                </li>
-                                <li><a href="hidden-1.html">Hidden 1</a></li>
-                                <li><a href="hidden-2.html">Hidden 2</a></li>
-                              </ul>
-                            </li>
-                          </ul> -->
+                        
                         </li>
                         <li class="">
                           <a href="#">Blog</a>
-                          <!-- <ul class="sub-menu">
-                            <li><a href="blog.html">Blog Listing</a></li>
-                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                            <li><a href="post.html">Blog Single</a></li>
-                          </ul> -->
+                        
                         </li>
                         <li><a href="#">Contact</a></li>
                       </ul>
@@ -329,7 +152,7 @@
               <div class="octf-col">
                 <div class="mlogo_wrapper clearfix">
                   <div class="mobile_logo">
-                    <a href="index.html">
+                    <a href="index.php">
                       <img src="images/logo/Homik.png" alt="Homik" />
                     </a>
                   </div>
@@ -352,276 +175,24 @@
                           class="mobile_mainmenu none-style"
                         >
                           <li class="">
-                            <a href="index.html">Home</a>
-                            <!-- <ul class="sub-menu">
-                              <li><a href="index.html">Main Home</a></li>
-                              <li><a href="index-dark.html">Main Dark</a></li>
-                              <li>
-                                <a href="index-2.html">Interior Design</a>
-                              </li>
-                              <li>
-                                <a href="index-2-light.html"
-                                  >Interior Design Light</a
-                                >
-                              </li>
-                              <li><a href="index-3.html">Studio Home</a></li>
-                              <li>
-                                <a href="index-3-dark.html">Studio Home Dark</a>
-                              </li>
-                              <li class="current-menu-item">
-                                <a href="index-4.html">Architecture Agency</a>
-                              </li>
-                              <li>
-                                <a href="index-4-dark.html"
-                                  >Architecture Agency Dark</a
-                                >
-                              </li>
-                              <li><a href="index-5.html">Design Company</a></li>
-                              <li>
-                                <a href="index-5-dark.html"
-                                  >Design Company Dark</a
-                                >
-                              </li>
-                              <li><a href="index-6.html">Home Video</a></li>
-                              <li>
-                                <a href="index-6-dark.html">Home Video Dark</a>
-                              </li>
-                              <li>
-                                <a href="home-full-screen.html"
-                                  >Home Full Screen</a
-                                >
-                              </li>
-                              <li><a href="one-page.html">Home One Page</a></li>
-                              <li>
-                                <a href="one-page-dark.html"
-                                  >Home One Page Dark</a
-                                >
-                              </li>
-                              <li>
-                                <a href="index-sidenav.html"
-                                  >Home with Side Menu</a
-                                >
-                              </li>
-                              <li>
-                                <a href="index-sidenav-light.html"
-                                  >Home with Side Menu Light</a
-                                >
-                              </li>
-                            </ul> -->
+                            <a href="index.php">Home</a>
+                          
                           </li>
                           <li class="">
                             <a href="#">About</a>
-                            <!-- <ul class="sub-menu">
-                              <li><a href="about-us.html">About Us</a></li>
-                              <li>
-                                <a href="our-services.html">Our Services</a>
-                              </li>
-                              <li><a href="our-team.html">Our Team</a></li>
-                              <li>
-                                <a href="single-team.html">Single Team</a>
-                              </li>
-                              <li>
-                                <a href="our-process.html">Our Process</a>
-                              </li>
-                              <li><a href="our-studio.html">Our Studio</a></li>
-                              <li class="menu-item-has-children">
-                                <a href="shop.html">Shop</a>
-                                <ul class="sub-menu">
-                                  <li>
-                                    <a href="single-product.html"
-                                      >Single Product</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="checkout-page.html"
-                                      >Checkout Page</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="cart-page.html">Cart Page</a>
-                                  </li>
-                                </ul>
-                              </li>
-                              <li><a href="typography.html">Typography</a></li>
-                              <li><a href="elements.html">Elements</a></li>
-                              <li><a href="faq.html">FAQS</a></li>
-                              <li>
-                                <a href="cooming-soon.html">Coming Soon</a>
-                              </li>
-                              <li><a href="404-error.html">404 Error</a></li>
-                            </ul> -->
+                           
                           </li>
                           <li class="">
                             <a href="#">Products</a>
-                            <!-- <ul class="sub-menu">
-                              <li>
-                                <a href="servcies-detail-1.html"
-                                  >Design & Planning</a
-                                >
-                              </li>
-                              <li>
-                                <a href="servcies-detail-2.html"
-                                  >Exterior Design</a
-                                >
-                              </li>
-                              <li>
-                                <a href="servcies-detail-3.html"
-                                  >Custom Solutions</a
-                                >
-                              </li>
-                              <li>
-                                <a href="servcies-detail-4.html"
-                                  >Furniture & Decor</a
-                                >
-                              </li>
-                              <li>
-                                <a href="servcies-detail-5.html"
-                                  >Creating Concept</a
-                                >
-                              </li>
-                              <li>
-                                <a href="servcies-detail-6.html"
-                                  >Author’s Control</a
-                                >
-                              </li>
-                            </ul> -->
+                         
                           </li>
                           <li class="">
                             <a href="#">Gallery</a>
-                            <!-- <ul class="sub-menu">
-                              <li class="menu-item-has-children">
-                                <a href="#">Portfolio Types</a>
-                                <ul class="sub-menu">
-                                  <li>
-                                    <a href="portfolio-masonry.html"
-                                      >Portfolio Grid Masonry</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-no-gap.html"
-                                      >Portfolio Grid No Gap</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-under.html"
-                                      >Portfolio Info Under Image</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-metro.html"
-                                      >Portfolio Metro</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-metro-no-gap.html"
-                                      >Portfolio Metro No Space</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-gallery.html"
-                                      >Portfolio Gallery</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-slider.html"
-                                      >Portfolio Slider</a
-                                    >
-                                  </li>
-                                </ul>
-                              </li>
-                              <li class="menu-item-has-children">
-                                <a href="#">Portfolio Layout</a>
-                                <ul class="sub-menu">
-                                  <li>
-                                    <a href="portfolio-two-column.html"
-                                      >Two Columns</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-three-column.html"
-                                      >Three Columns</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-three-column-wide.html"
-                                      >Three Columns Wide</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-four-column-wide.html"
-                                      >Four Columns Wide</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-five-column-wide.html"
-                                      >Five Columns Wide</a
-                                    >
-                                  </li>
-                                </ul>
-                              </li>
-                              <li class="menu-item-has-children">
-                                <a href="#">Portfolio Hover Types</a>
-                                <ul class="sub-menu">
-                                  <li>
-                                    <a href="portfolio-standar.html">Standar</a>
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-detail-slider.html"
-                                      >Slider Images</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-left.html">Left Image</a>
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-right.html"
-                                      >Right Image</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-small.html"
-                                      >Small Image</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="portfolio-big.html">Big Image</a>
-                                  </li>
-                                </ul>
-                              </li>
-                              <li class="menu-item-has-children">
-                                <a href="image-scale.html">Image-scale</a>
-                                <ul class="sub-menu">
-                                  <li>
-                                    <a href="image-scale.html">Image Scale</a>
-                                  </li>
-                                  <li>
-                                    <a href="show-overlay-info.html"
-                                      >Show Overlay Info</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="hidden-overlay-info.html"
-                                      >Hidden Overlay Info</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="background-solid.html"
-                                      >Background Solid</a
-                                    >
-                                  </li>
-                                  <li><a href="hidden-1.html">Hidden 1</a></li>
-                                  <li><a href="hidden-2.html">Hidden 2</a></li>
-                                </ul>
-                              </li>
-                            </ul> -->
+                           
                           </li>
                           <li class="">
                             <a href="#">Blog</a>
-                            <!-- <ul class="sub-menu">
-                              <li><a href="blog.html">Blog Listing</a></li>
-                              <li><a href="blog-grid.html">Blog Grid</a></li>
-                              <li><a href="post.html">Blog Single</a></li>
-                            </ul> -->
+                       
                           </li>
                           <li><a href="#">Contact</a></li>
                         </ul>
@@ -674,7 +245,7 @@
                 }
                 ?>
                 <!-- Category Tabs -->
-                <ul class="nav nav-tabs" id="productTabs" role="tablist">
+                <ul class="nav nav-tabs justify-content-center" id="productTabs" role="tablist">
                     <?php
                     // Connect to the database and fetch categories
                     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -716,7 +287,7 @@
                                     <div class="product-card">
                                         <div class="product-tumb">
                                             <div class="image-container">
-                                                <img class="img-fluid default-img" src="http://localhost/homik/admin' . $rowProduct["image_default"] . '" alt="">
+                                                <img class="img-fluid default-img" src="http://localhost/homik/gallery.php' . $rowProduct["image_default"] . '" alt="">
                                                 <img class="img-fluid hover-img" src="http://localhost/homik/admin' . $rowProduct["image_hover"] . '" alt="">
                                             </div>
                                         </div>
@@ -726,12 +297,7 @@
                                                 <p class="product-catagory">' . $rowProduct["product_name"] . '</p>
                                             </div>
                                             <p><a class="product-des" href="#">' . $rowProduct["description"] . '</a></p>
-                                            <div class="product-bottom-details">
-                                                <div class="product-price">&#8377;' . $rowProduct["price"] . '</div>
-                                            </div>
-                                            <div class="d-flex justify-content-center align-items-center mt-3">
-                                                <a class="view-detail" href="product-detail.php?id=' . $rowProduct["id"] . '">View Details</a>
-                                            </div>
+                                        
                                         </div>
                                     </div>
                                 </div>';
@@ -883,6 +449,31 @@
 
     <!-- REVOLUTION SLIDER SCRIPT FILES -->
     <script src="js/rev-script-1.js"></script>
+ <script>
+  // Wait for the DOM to load
+document.addEventListener('DOMContentLoaded', function () {
+    // Select all tab buttons and content panes
+    const tabButtons = document.querySelectorAll('#productTabs button');
+    const tabPanes = document.querySelectorAll('.tab-pane');
 
+    // Function to handle tab switching
+    function switchTab(event) {
+        // Deactivate all tabs and hide content panes
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabPanes.forEach(pane => pane.classList.remove('show', 'active'));
+
+        // Activate the clicked tab and corresponding content pane
+        const targetPane = document.querySelector(event.target.dataset.bsTarget);
+        event.target.classList.add('active');
+        targetPane.classList.add('show', 'active');
+    }
+
+    // Add event listeners to all tab buttons
+    tabButtons.forEach(button => {
+        button.addEventListener('click', switchTab);
+    });
+});
+
+ </script>
 </body>
 </html>

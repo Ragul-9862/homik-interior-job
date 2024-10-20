@@ -51,10 +51,10 @@ if (isset($_POST['productsubmit'])) {
         }
     }
 
-    $price = $_POST['price'];
-    if (empty($price) || !is_numeric($price)) {
-        $errors[] = "Valid price is required.";
-    }
+    // $price = $_POST['price'];
+    // if (empty($price) || !is_numeric($price)) {
+    //     $errors[] = "Valid price is required.";
+    // }
 
     $cat_id = $_POST['category'];
     if ($cat_id == 0) {

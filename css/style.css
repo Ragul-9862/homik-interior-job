@@ -10767,15 +10767,203 @@ ul {
   }
 }
 
-.login-btn{
+.login-btn {
   background: #6fbf44;
   padding: 5px 20px;
   border-radius: 3px;
   color: white;
 }
-.login-btn:hover{
+.login-btn:hover {
   background: #6fbf44;
   padding: 5px 20px;
   border-radius: 3px;
   color: white;
+}
+
+/* User Login */
+
+/* Login Wrapper */
+.login-wrapper {
+  display: flex;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Left Banner Section */
+.login-banner {
+  flex: 1;
+  background-image: url("./images/home/login.png");
+  background-size: cover;
+  background-position: center;
+  display: none; /* Hidden on small screens */
+}
+
+/* Login Form Container */
+.login-form-container {
+  flex: 1;
+  padding: 40px;
+}
+
+/* Form Title */
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Form Styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label Text */
+.label-text {
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Submit Button */
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Submit Button Hover Effect */
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+.login-banner {
+  background-image: url("../images/home/login.png");
+  position: relative;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .login-wrapper {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .login-banner {
+    display: none;
+  }
+
+  .login-form-container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  .login-banner {
+    display: block;
+  }
+}
+
+#shadow-host-companion {
+  padding: 0px !important;
+}
+
+.product-page-main {
+  background: url(../images/subanner/subbanner.png);
+  padding: 100px 0px;
+  background-position: center;
+  background-size: cover;
+}
+.back-to-section-main-info {
+  text-align: center;
+}
+
+/* Floating WhatsApp and Call Icons */
+.floating-icons {
+  position: fixed;
+  bottom: 80px; /* Adjust the distance from the bottom */
+  right: 20px; /* Adjust the distance from the right */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 9999 !important; /* Ensure it's on top of other elements */
+}
+
+/* Container for the floating icons */
+.floating-icons {
+  position: fixed;
+  right: 15px; /* Distance from the right side */
+  bottom: 70px; /* Distance from the bottom */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between the icons */
+  z-index: 9999; /* Ensures the icons are on top */
+}
+
+/* Common styling for both icons */
+.floating-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #25d366; /* WhatsApp green background */
+  color: white;
+  font-size: 24px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* WhatsApp Icon */
+.whatsapp-icon {
+  background-color: #25d366;
+}
+
+/* Call Icon */
+.call-icon {
+  background-color: #000 !important;
+}
+
+/* Hover effect */
+.floating-icons a:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 768px) {
+  .floating-icons {
+    right: 10px;
+    bottom: 50px;
+  }
+
+  .floating-icons a {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
 }
